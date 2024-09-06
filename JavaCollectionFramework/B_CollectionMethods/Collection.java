@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Main {
+public class Collection {
     public static void main(String[] args) {
         // Creating an ArrayList object which belongs to List interface, which belongs to Collection interface.
         ArrayList<Integer> arr1 = new ArrayList<>();
