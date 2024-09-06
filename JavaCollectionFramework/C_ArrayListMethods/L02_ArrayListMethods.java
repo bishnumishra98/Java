@@ -1,4 +1,4 @@
-package C_ArrayListMethods;
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -46,10 +46,14 @@ public class L02_ArrayListMethods {
         l2.add(10);
         l2.add(12);
         l2.add(14);
+        l2.add(12);
         l2.add(16);
-        System.out.println(l2);   // o/p: [10, 12, 14, 16]
+        System.out.println(l2);   // o/p: [10, 12, 14, 12, 16]
 
         // 8. indexOf(): Returns the index of an element in list
         System.out.println(l2.indexOf(14));   // o/p: 2
+
+        // 9. lastIndexOf(): Returns index of last occurrence of an element in list. If element is not present, it returns -1. 
+        System.out.println(l2.lastIndexOf(12));   // o/p: 3
     }
 }
