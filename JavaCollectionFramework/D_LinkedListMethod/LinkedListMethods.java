@@ -2,12 +2,11 @@
 // All methods of ArrayList mentioned in 'C_ArrayListMethods\L02_ArrayListMethods.java' are also applicable for LinkedList,
 // except ensureCapacity().
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LL01_LinkedListMethods {
+public class LinkedListMethods {
     public static void main(String[] args) {
         List<Integer> l1 = new LinkedList<>();
         l1.add(10);
