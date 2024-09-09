@@ -48,16 +48,25 @@ public class LL01_LinkedListMethods {
         System.out.println(l1.lastIndexOf(30));   // o/p: 1
 
         // 9. addFirst()
-        
+        l1.addFirst(50);
+        System.out.println(l1);   // o/p: [50, 200, 30, 10]
         
         // 10. addLast()
+        l1.addLast(60);
+        System.out.println(l1);   // o/p: [50, 200, 30, 10, 60]
 
         // 11. getFirst()
+        System.out.println(l1.getFirst());   // o/p: 50
 
         // 12. getLast()
+        System.out.println(l1.getLast());   // o/p: 60
 
         // 13. removeFirst()
+        l1.removeFirst();
+        System.out.println(l1);   // o/p: [200, 30, 10, 60]
 
         // 14. removeLast()
+        l1.removeLast();
+        System.out.println(l1);   // o/p: [200, 30, 10]
     }
 }

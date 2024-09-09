@@ -55,5 +55,27 @@ public class L02_ArrayListMethods {
 
         // 9. lastIndexOf(): Returns index of last occurrence of an element in list. If element is not present, it returns -1. 
         System.out.println(l2.lastIndexOf(12));   // o/p: 3
+
+        // 10. addFirst()
+        l2.addFirst(50);
+        System.out.println(l2);   // o/p: [50, 10, 12, 14, 12, 16]
+        
+        // 11. addLast()
+        l2.addLast(60);
+        System.out.println(l2);   // o/p: [50, 10, 12, 14, 12, 16, 60]
+
+        // 12. getFirst()
+        System.out.println(l2.getFirst());   // o/p: 50
+
+        // 13. getLast()
+        System.out.println(l2.getLast());   // o/p: 60
+
+        // 14. removeFirst()
+        l2.removeFirst();
+        System.out.println(l2);   // o/p: [10, 12, 14, 12, 16, 60]
+
+        // 15. removeLast()
+        l2.removeLast();
+        System.out.println(l2);   // o/p: [10, 12, 14, 12, 16]
     }
 }
