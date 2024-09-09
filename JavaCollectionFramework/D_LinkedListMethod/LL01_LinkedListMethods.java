@@ -68,5 +68,13 @@ public class LL01_LinkedListMethods {
         // 14. removeLast()
         l1.removeLast();
         System.out.println(l1);   // o/p: [200, 30, 10]
+
+        // 15. poll(): returns and removes the first element from the LL
+        System.out.println(((LinkedList<Integer>) l1).poll());   // o/p: 200 (also 200 is then removed from LL)
+        System.out.println(l1);   // o/p: [30, 10]
+
+        // 16. offer(): adds the specified element at the end of the LL
+        ((LinkedList<Integer>) l1).offer(15);
+        System.out.println(l1);   // o/p: [30, 10, 15]
     }
 }
