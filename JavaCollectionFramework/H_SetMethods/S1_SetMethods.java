@@ -3,7 +3,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class SetMethods {
+public class S1_SetMethods {
     public static void main(String[] args) {
         // 1. Creating a set using HashSet
         Set<Integer> set = new HashSet<>();
